@@ -1,4 +1,4 @@
-# NITT Hospital :HC
+# NITT Hospital
 We are making an integrated automated system for the Health Center at NIT Trichy.
 
 
