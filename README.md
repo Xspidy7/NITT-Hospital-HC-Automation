@@ -4,7 +4,7 @@ We are making an integrated automated system for the Health Center at NIT Trichy
 
 
 
-At present most of the documentation records are handled on paper in the Health Center at NIT Trichy. Our team decided to make a Web-based App to automate the appointment and prescription procedure.
+At present most of the documentation records are handled on paper in the Health Center at NIT Trichy. I decided to make a Web-based App to automate the appointment and prescription procedure.
 
 ### Installation Instructions
 
