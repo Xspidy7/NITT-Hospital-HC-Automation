@@ -1,0 +1,5 @@
+.table >div,.table > div > div {
+	border: 0.5px solid #000;
+	text-align: center;
+}
+

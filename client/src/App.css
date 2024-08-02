@@ -1,0 +1,67 @@
+.App {
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #FFF2D0;
+    font-family: Arial, sans-serif;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+}
+
+.App .home_button {
+    background: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    color: #000;
+    font-size: 1.25rem;
+    height : 20vh;
+    width : 40vw;
+    margin: 0.5rem;
+    border-radius: 8px;
+    margin-bottom: 5vh;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.App .hc_card {
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+.App .hc_card_header {
+    background-color: #ffc554;
+}
+
+.App .hc_card_title {
+    text-decoration:solid;
+}
+
+/* .App .hc_card_body {
+
+}
+
+.App .hc_card_text {
+
+} */
+
+.App .hc_card_button {
+    background: #000000;
+    border: 1px solid #000000;
+    color: #fff;
+    padding: 0.1rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.App .appointment_description {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 30px;
+}

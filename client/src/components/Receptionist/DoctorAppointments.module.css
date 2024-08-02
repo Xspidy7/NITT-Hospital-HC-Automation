@@ -1,0 +1,21 @@
+.container {
+	width: 90vw;
+	display:grid;
+	grid-template-columns:300px 100px 100px 100px;
+}
+
+.container > div {
+	border: solid 0.5px black;
+	border-left:none;
+	border-top:none;
+}
+
+.container > div:nth-child(-n + 4) {
+	/* first four children - i.e. first row */
+	border-top: solid 0.5px black;
+}
+
+.container > div:nth-child(4n + 1) {
+	/* every 4th child starting with the first - i.e. first column */
+	border-left: solid 0.5px black;
+}

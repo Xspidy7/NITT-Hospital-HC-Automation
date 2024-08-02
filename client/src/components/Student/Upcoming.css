@@ -1,0 +1,13 @@
+.student_upcoming {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+
+.description {
+    display: inline-block;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }

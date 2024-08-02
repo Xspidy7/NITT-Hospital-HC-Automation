@@ -1,0 +1,103 @@
+.
+|-- Documents
+|   |-- Software\ Design\ Document.pdf
+|   `-- Software\ Requirements\ Specifications.pdf
+|-- README.md
+|-- client
+|   |-- README.md
+|   |-- package-lock.json
+|   |-- package.json
+|   |-- public
+|   |   |-- favicon.ico
+|   |   `-- index.html
+|   `-- src
+|       |-- App.css
+|       |-- App.js
+|       |-- Notfound.js
+|       |-- api
+|       |   `-- axios.js
+|       |-- components
+|       |   |-- Icons.js
+|       |   |-- Layout.js
+|       |   |-- Navbar.css
+|       |   |-- Navbar.js
+|       |   |-- Nurse
+|       |   |   |-- InitialNurse.js
+|       |   |   |-- Vitals.js
+|       |   |   |-- nurse.css
+|       |   |   `-- vitals.css
+|       |   |-- PersistLogin.js
+|       |   |-- Pharmacy
+|       |   |   |-- CompletedPrescription.js
+|       |   |   |-- InitialPharmacy.js
+|       |   |   |-- Patient.js
+|       |   |   |-- PendingPrescription.js
+|       |   |   |-- Prescription.js
+|       |   |   `-- prescriptions.module.css
+|       |   |-- Receptionist
+|       |   |   |-- Appointment.js
+|       |   |   |-- AppointmentStatus.js
+|       |   |   |-- AppointmentsRequests.js
+|       |   |   |-- DoctorAllotment.js
+|       |   |   |-- DoctorAppointments.js
+|       |   |   |-- DoctorAppointments.module.css
+|       |   |   |-- InitialReceptionist.js
+|       |   |   |-- Setschedule.css
+|       |   |   |-- Setschedule.js
+|       |   |   |-- UploadReports.js
+|       |   |   `-- ViewAppt.js
+|       |   |-- RequireAuth.js
+|       |   |-- Student
+|       |   |   |-- Doctors.js
+|       |   |   |-- Doctors.module.css
+|       |   |   |-- History.css
+|       |   |   |-- History.js
+|       |   |   |-- Home.css
+|       |   |   |-- Home.js
+|       |   |   |-- Request.js
+|       |   |   |-- Upcoming.css
+|       |   |   |-- Upcoming.js
+|       |   |   |-- doctors.css
+|       |   |   `-- request.css
+|       |   |-- doctor
+|       |   |   |-- Entry_page.css
+|       |   |   |-- Entry_page.js
+|       |   |   |-- Schedule.css
+|       |   |   |-- Schedule.js
+|       |   |   `-- Veiw\ Appointments
+|       |   |       |-- Appointment.js
+|       |   |       |-- Conduct_appointment.js
+|       |   |       |-- DiagnosticTest.js
+|       |   |       |-- MedHistory.js
+|       |   |       |-- Medication.css
+|       |   |       |-- Medication.js
+|       |   |       |-- Medicines.js
+|       |   |       |-- Popup.js
+|       |   |       `-- veiw_appointments.js
+|       |   |-- homepage
+|       |   |   |-- homepage.css
+|       |   |   `-- homepage.js
+|       |   |-- login
+|       |   |   |-- login.css
+|       |   |   `-- login.js
+|       |   |-- logo.jpeg
+|       |   |-- logo.png
+|       |   |-- logo_bg.png
+|       |   |-- register
+|       |   |   |-- register.css
+|       |   |   `-- register.js
+|       |   `-- testing.js
+|       |-- context
+|       |   `-- AuthProvider.js
+|       |-- hooks
+|       |   |-- useAuth.js
+|       |   |-- useAxiosPrivate.js
+|       |   |-- useLogout.js
+|       |   `-- useRefreshToken.js
+|       `-- index.js
+|-- file_structure.txt
+|-- index.js
+|-- package-lock.json
+`-- package.json
+
+18 directories, 83 files

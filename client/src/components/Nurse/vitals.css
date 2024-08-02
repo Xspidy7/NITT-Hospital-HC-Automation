@@ -1,0 +1,27 @@
+.nurse_vitals  button {
+    background: #ff9900;
+    border: 1px solid #ff9900;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.nurse_vitals {
+    width: 800px;
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.nurse_vitals .heading {
+    background-color: #ffaa00;
+}
+
+.nurse_vitals h4 {
+    /* background-color: #ffaa00; */
+}
